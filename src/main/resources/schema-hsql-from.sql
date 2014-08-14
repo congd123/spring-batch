@@ -1,0 +1,11 @@
+DROP TABLE "USERS" IF EXISTS;
+
+CREATE TABLE "USERS"  (
+    "ID" INTEGER PRIMARY KEY,
+    "NAME" VARCHAR(20),
+    "EMAIL" VARCHAR(20)
+);
+
+INSERT INTO "USERS" VALUES (1, 'John', 'john@com');
+INSERT INTO "USERS" VALUES (2, 'Smtih', 'smith@com');
+INSERT INTO "USERS" VALUES (3, 'Maria', 'Maria@com');
